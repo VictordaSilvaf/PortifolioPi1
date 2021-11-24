@@ -1,0 +1,19 @@
+@import url(components/menu.css);
+@import url(components/footer.css);
+@import url(components/divSection.css);
+@import url(components/buttonLink.css);
+
+h1 {
+  font-size: 48px;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 55px;
+}
+
+.left {
+  justify-content: flex-end;
+  margin: 0 0 0 auto;
+}

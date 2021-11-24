@@ -1,0 +1,19 @@
+.divSection {
+  width: fit-content;
+  height: 7vh;
+  background-color: var(--dark-purple-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10px;
+  color: var(--text-primary-color);
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+.divSection .iconify {
+  width: 30px;
+  height: 30px;
+  color: var(--text-primary-color);
+  margin-right: 20px;
+}

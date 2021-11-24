@@ -1,0 +1,22 @@
+:root {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+
+  --bg-primary-color: #242424;
+  --bg-secondary-color: #545454;
+  --text-primary-color: #FFFFFF;
+  --text-secondary-color: #171515;
+  --dark-purple-color: #5E17EB;
+  --light-purple-color: #8C52FF;
+  --footer-color: #242424;
+
+  /* Redes Sociais */
+  --github-color: #171515;
+  --gmail-color: #DB4A39;
+  --linkedin-color: #007BB6;
+  --instagram-color: #517FA4;
+}

@@ -1,0 +1,136 @@
+nav {
+  position: fixed;
+  right: 0;
+    background: var(--bg-primary-color);
+    width: 15vh;
+    padding-left: 20px;
+}
+.banner {
+  background-color: var(--bg-primary-color);
+  width: auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.bannerLeft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerRight {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-primary-color);
+}
+
+.bannerBlock1 {
+  width: 45%;
+  height: 80%;
+  background-color: var(--dark-purple-color);
+}
+
+.bannerBlock2 {
+  width: 30%;
+  height: 65%;
+  background-color: var(--light-purple-color);
+}
+
+section {
+  background-color: var(--bg-secondary-color);
+  padding-top: 5%;
+}
+
+article {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+article div {
+  width: 20vw;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--text-primary-color);
+}
+
+.services .iconify {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.services h4 {
+  font-size: larger;
+}
+
+.services .divider {
+  height: 2px;
+  width: 60%;
+  background-color: var(--dark-purple-color);
+  margin-top: 3px;
+}
+
+.services p {
+  font-size: small;
+  margin-top: 2%;
+}
+
+.servicesTec .services{
+  background-color: var(--text-primary-color)
+}
+
+.servicesTec .services div{
+  margin-top: auto;
+}
+
+.servicesTec .services h4{
+  background-color: var(--dark-purple-color);
+  display: block;
+  width: auto;
+  padding: 3% 0px;
+
+}
+
+.services img {
+  width: 80%;
+  height: auto;
+  padding: 5% 0px;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+}
+
+.technology {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  color: var(--text-primary-color);
+}
+
+.technology p {
+  margin-bottom: 2%;
+  text-align: justify;
+}
+
+.technology p:nth-child(4) {
+  margin-bottom: 6%;
+
+}

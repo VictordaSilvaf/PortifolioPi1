@@ -1,0 +1,15 @@
+.buttonLink {
+  background-color: var(--dark-purple-color);
+  color: var(--text-primary-color);
+  padding: 5px 20px;
+  border-radius: 50px;
+  margin-top: 3%;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonLink:hover {
+  background-color: var(--light-purple-color);
+}
