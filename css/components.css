@@ -3,6 +3,7 @@
 @import url(components/divSection.css);
 @import url(components/buttonLink.css);
 
+@import url(/css/animation.css);
 @import url(/css/variables.css);
 
 body {

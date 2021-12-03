@@ -13,11 +13,11 @@
 
 <body>
     <header class="banner">
-        <div class="bannerLeft">
+        <div class="bannerLeft" data-animation='left'>
             <div class="bannerBlock1"></div>
             <div class="bannerBlock2"></div>
         </div>
-        <div class="bannerRight">
+        <div class="bannerRight" data-animation='right'>
             <h1>Seja bem vindo!</h1>
             <h2>Este é meu portfólio</h2>
             <a href="/pages/projects.html" class="buttonLink">Ver mais</a>
@@ -41,27 +41,27 @@
 
     <section>
 
-        <div class="divSection">
+        <div class="divSection" data-animation='left'>
             <span class="iconify" data-icon="mdi-light:book"></span>
             <h3>Meus serviços</h3>
         </div>
 
         <article class="list_services">
-            <div class="services">
+            <div class="services" data-animation='right'>
                 <span class="iconify" data-icon="mdi-light:ungroup"></span>
                 <h4>Sistema Integrado</h4>
                 <div class="divider"></div>
                 <p>Envolve o desenvolvimento multiplataformas, onde dispositivos diferentes se comunicam e trabalham em
                     sincronia através da internet.</p>
             </div>
-            <div class="services">
+            <div class="services" data-animation='right'>
                 <span class="iconify" data-icon="mdi-light:television"></span>
                 <h4>Aplicação Web</h4>
                 <div class="divider"></div>
                 <p>Desde uma simples landpage, sites pessoais ou comercial, até lojas virtuais e sistemas complexos para
                     internet.</p>
             </div>
-            <div class="services">
+            <div class="services" data-animation='right'>
                 <span class="iconify" data-icon="mdi-light:picture"></span>
                 <h4>UI/UX Design</h4>
                 <div class="divider"></div>
@@ -70,25 +70,25 @@
             </div>
         </article>
 
-        <div class="divSection left">
+        <div class="divSection left" data-animation='right'>
             <span class="iconify" data-icon="mdi-light:book"></span>
             <h3>Principais Tecnologias</h3>
         </div>
 
         <article class="servicesTec">
-            <div class="services">
+            <div class="services" data-animation='right'>
                 <img src="img/reactLogo.png" alt="">
                 <div>
                     <h4>React</h4>
                 </div>
             </div>
-            <div class="services">
+            <div class="services" data-animation='right'>
                 <img src="img/LaravelLogo.png" alt="">
                 <div>
                     <h4>Laravel</h4>
                 </div>
             </div>
-            <div class="services">
+            <div class="services" data-animation='right'>
                 <img src="img/sassLogo.png" alt="">
                 <div>
                     <h4>SASS</h4>
@@ -96,12 +96,12 @@
             </div>
         </article>
 
-        <div class="divSection">
+        <div class="divSection"  data-animation='left'>
             <span class="iconify" data-icon="mdi-light:book"></span>
             <h3>Meus Valores</h3>
         </div>
 
-        <section class="technology">
+        <section class="technology" data-animation='right'>
             <p>Tenho em mente que são os valores de uma pessoa é oque a molda, e como meus 3 principais valores tenho
                 Humildade, Liberdade e Respeito.</p>
             <p>Humildade: O valor que eu vejo como mais importante, pois é agir sobre suas proprias limitações e
@@ -122,6 +122,7 @@
         <!-- imports -->
         <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
         <script src="/js/mobile-navbar.js"></script>
+        <script src="/js/animation.js"></script>
 </body>
 
 </html>
