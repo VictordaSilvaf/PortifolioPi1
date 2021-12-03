@@ -4,8 +4,9 @@
 @import url(components/buttonLink.css);
 
 @import url(/css/variables.css);
+
 body {
-  overflow-x:hidden;
+  overflow-x:hidden !important;
 }
 
 h1 {
