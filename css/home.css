@@ -134,3 +134,42 @@ article div {
   margin-bottom: 6%;
 
 }
+
+@media only screen and (max-width: 500px) {
+  .bannerBlock1 {
+    width: 45%;
+    height: 50%;
+  }
+  
+  .bannerBlock2 {
+    width: 30%;
+    height: 30%;
+  }
+
+  .bannerRight {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .bannerRight h1{
+    font-size: 22px;
+  }
+
+  .bannerRight h2{
+    font-size: 14px;
+  }
+
+  .list_services {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    justify-content: center;
+    padding: 0 10%;
+  }
+
+  .list_services .services{
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+}

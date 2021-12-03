@@ -30,13 +30,13 @@ section {
 }
 
 .blockProjects {
-  width: 20vw;
+  width: 24vw;
   height: 300px;
   background: var(--light-purple-color);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 5%;
+  margin-top: 5%; 
 }
 
 .blockProjects img {
@@ -44,7 +44,7 @@ section {
   padding: 20px;
 }
 
-.blockProjects h4 {
+.blockProjects a {
   margin-top: 2vh;
   height: 18%;
   width: auto;
@@ -53,4 +53,18 @@ section {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  text-decoration: none;
+  color: var(--text-secondary-color)
+}
+
+@media only screen and (max-width: 500px) {
+  .projects_list {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  .projects_list .blockProjects {
+    width: 100%;
+  }
 }
