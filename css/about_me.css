@@ -3,7 +3,7 @@ main {
 }
 
 main .initial_content {
-  height: 90vh;
+  height: 84vh;
 }
 main section {
   display: flex;
@@ -24,7 +24,7 @@ main section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 10%;
+  padding: 0 2%;
   text-align: center;
   color: var(--text-primary-color);
 }
