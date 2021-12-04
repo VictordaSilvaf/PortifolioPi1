@@ -43,7 +43,7 @@ main section {
     font-size: 10px;
     display: flex;
     flex-wrap: nowrap;
-
+    z-index: 1;
   }
 
   .containerRight p {
