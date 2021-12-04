@@ -9,24 +9,28 @@ nav {
 }
 
 main {
-  width: 80%;
   background: var(--bg-secondary-color);
   display: flex;
-  height: fit-content;
   justify-content: center;
   margin: 0 auto;
+  padding-top: 2%;
 }
 
 section {
-  width: 100vw;
+  width: 90%;
   background: var(--bg-secondary-color);
   display: flex;
   align-content: flex-start;
-  height: fit-content;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 5%;
+  height: auto;
   margin-bottom: 5%;
+}
+
+.projects_list {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
 }
 
 .blockProjects {
